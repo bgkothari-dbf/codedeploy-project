@@ -1,8 +1,0 @@
-resources:
-  - uk-website:
-      type: "AWS::Lambda::Function"
-      properties:
-        name: uk-website
-        alias: uk-website-alias
-        currentversion: 1
-        targetversion: 2
